@@ -1,0 +1,30 @@
+body {
+    background: #fefefe;
+}
+
+.mainHeader {
+    color: rgb(2, 47, 10);
+    font-size: 50px;
+}
+
+p {
+    color: black;
+}
+
+.sectionHeader {
+    color: #cf24b3;
+    background: yellowgreen;
+}
+.diaryHeader {
+    color: green;
+}
+
+.infoHeader{
+    color: palevioletred;
+    background: darkslategray;
+    font-size: 33px;
+}
+
+.extraHeader {
+    color: deeppink;
+}
