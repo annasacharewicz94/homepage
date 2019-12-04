@@ -1,30 +1,77 @@
 body {
-    background: #fefefe;
+    background: whitesmoke;
+    padding: 32px;
+    margin: 32px;
+    
+    
 }
 
 .mainHeader {
-    color: rgb(2, 47, 10);
+    color: rgb(5, 42, 12);
     font-size: 50px;
-}
-
-p {
-    color: black;
+    margin: 20px;
 }
 
 .sectionHeader {
-    color: #cf24b3;
-    background: yellowgreen;
+    color: #5E8E15;
+
 }
 .diaryHeader {
-    color: green;
+    color: #91BA55;
 }
 
 .infoHeader{
-    color: palevioletred;
-    background: darkslategray;
-    font-size: 33px;
+    color:#41630E    
 }
 
-.extraHeader {
-    color: deeppink;
+.extraHeader{
+    color: #5E8E15;
+}
+
+.link {
+    color: rgb(171, 206, 120);
+}
+
+.paragraph{
+    text-align: center;
+    text-align: justify;
+    font-size: 16px;
+    margin: 55px;
+}
+
+
+
+.box {
+    height: 100px;
+    width: 100px;
+    padding: 50px;
+    border: 5px solid green;
+    background: greenyellow;
+    box-sizing: border-box;
+    font-style: italic;
+    position: static;
+    top: 15px;
+    right: 50%;
+    bottom: auto;
+    left: 10px;
+}
+
+.top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 16px,16px;
+
+}
+.navigation {
+    position: fixed;
+    right: 25px;
+    top: 10px;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 15px;
+    margin: 32, auto;
+    background: whitesmoke;
+    width: 100%;
+    text-align: center;
 }
